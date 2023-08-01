@@ -1,0 +1,18 @@
+#instructions
+-step 0:
+	go to folder: IceStick V2.0 
+
+
+#first we need to serve localhost using node install and run http static server
+-step 1 execute: 
+	RunFirst_NpmInstallServer.bat
+
+
+#then we are going to use ngrock public domain acces 
+#(if error is given you are going to need to make a free account to get your authorization token then replace it on line 2 on the RunLast_HostWithngrockAccount.bat file)
+-step2 execute: 
+	RunLast_HostWithngrockAccount.bat
+
+
+-step3: 
+	Access the https site given on the console at any device
